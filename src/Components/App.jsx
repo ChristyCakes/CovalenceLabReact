@@ -54,7 +54,6 @@ class App extends Component {
 
         // check hasLoaded method before rendering
         if (this.state.hasLoaded) {
-            console.log('if statement works')
             return (
                 <div>
                     <h1>{this.state.text}: {this.props.color}</h1>
